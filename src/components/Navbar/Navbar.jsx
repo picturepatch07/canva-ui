@@ -1,45 +1,73 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import "./Navbar.css";
 
 function BasicExample() {
   return (
-    <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Brand href="#home">Canva</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <NavDropdown title="Design spotlight" id="basic-nav-dropdown">
-              <NavDropdown.Item>Visual Documents</NavDropdown.Item>
-              <NavDropdown.Item>Photos and videos</NavDropdown.Item>
-              <NavDropdown.Item>Print</NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title="Business" id="basic-nav-dropdown">
-              <NavDropdown.Item>Visual Documents</NavDropdown.Item>
-              <NavDropdown.Item>Photos and videos</NavDropdown.Item>
-              <NavDropdown.Item>Print</NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title="Education" id="basic-nav-dropdown">
-              <NavDropdown.Item>Visual Documents</NavDropdown.Item>
-              <NavDropdown.Item>Photos and videos</NavDropdown.Item>
-              <NavDropdown.Item>Print</NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title="Plans and pricing" id="basic-nav-dropdown">
-              <NavDropdown.Item>Visual Documents</NavDropdown.Item>
-              <NavDropdown.Item>Photos and videos</NavDropdown.Item>
-              <NavDropdown.Item>Print</NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title="Learn" id="basic-nav-dropdown">
-              <NavDropdown.Item>Visual Documents</NavDropdown.Item>
-              <NavDropdown.Item>Photos and videos</NavDropdown.Item>
-              <NavDropdown.Item>Print</NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <div className="container">
+        <a className="navbar-brand" href="#">
+          <img
+            src="https://static-cse.canva.com/_next/static/assets/logo_w2000xh641_3b021976d60d0277e95febf805ad9fe8c7d6d54f86969ec03b83299084b7cb93.png"
+            alt="Canva logo"
+            className="img-fluid"
+          />
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item active">
+              <a className="nav-link" href="#">
+                Home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Features
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Pricing
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Templates
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                About
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Contact
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link btn btn-primary" href="#">
+                Sign up
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link btn btn-secondary" href="#">
+                Log in
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   );
 }
 
