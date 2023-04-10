@@ -1,0 +1,35 @@
+.discover-section {
+    padding: 100px 0;
+    background-color: #f7f7f7;
+}
+
+.section-heading {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.lead {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature i {
+    font-size: 48px;
+    color: #e6af2e;
+}
+
+.feature h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.play-icon {
+    height: 100px;
+}
+
