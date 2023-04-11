@@ -1,8 +1,8 @@
 import "./App.css";
 import GiftSection from "./components/GiftSection/GiftSection";
-import Hero from "./components/HeroSection/HeroSection";
 import Navbar from "./components/Navbar/Navbar";
 import TrySection from "./components/WantToTrySection/WantToTrySection";
+import Hero from "./components/HeroSection/HeroSection";
 
 function App() {
   return (

@@ -26,57 +26,50 @@ function GiftSection() {
   };
   return (
     <div className="container">
-      <h3>Open each gift to discover a new feature</h3>
+      <h3>Open each gift to open a new feature</h3>
       <Carousel responsive={responsive} className="carousel-gift">
         <div className="card">
           <img className="product-image" src={gift} alt="doc-img" />
-          <h2>Gift</h2>
         </div>
         <div className="card">
           <img className="product-image" src={gift} alt="doc-img" />
-          <h2>Gift</h2>
         </div>
         <div className="card">
           <img className="product-image" src={gift} alt="doc-img" />
-          <h2>Gift</h2>
         </div>
         <div className="card">
           <img className="product-image" src={gift} alt="doc-img" />
-          <h2>Gift</h2>
         </div>
         <div className="card">
           <img className="product-image" src={gift} alt="doc-img" />
-          <h2>Gift</h2>
         </div>
         <div className="card">
           <img className="product-image" src={gift} alt="doc-img" />
-          <h2>Gift</h2>
         </div>
         <div className="card">
           <img className="product-image" src={gift} alt="doc-img" />
-          <h2>Gift</h2>
         </div>
         <div className="card">
           <img className="product-image" src={gift} alt="doc-img" />
-          <h2>Gift</h2>
         </div>
         <div className="card">
           <img className="product-image" src={gift} alt="doc-img" />
-          <h2>Gift</h2>
         </div>
         <div className="card">
           <img className="product-image" src={gift} alt="doc-img" />
-          <h2>Gift</h2>
         </div>
         <div className="card">
           <img className="product-image" src={gift} alt="doc-img" />
-          <h2>Gift</h2>
         </div>
         <div className="card">
           <img className="product-image" src={gift} alt="doc-img" />
-          <h2>Gift</h2>
         </div>
       </Carousel>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
