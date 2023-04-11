@@ -37,8 +37,8 @@ function TrySection() {
   };
   return (
     <div className="container">
-      <h1>You might want to try</h1>
-      <Carousel responsive={responsive}>
+      <h3>You might want to try</h3>
+      <Carousel responsive={responsive} className="carousel-try">
         <div className="card">
           <img className="product-image" src={docs} alt="doc-img" />
           <h2>Doc</h2>
